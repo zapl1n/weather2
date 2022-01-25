@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather API w/ OOP</title>
+    <link rel="icon" type="image/x-icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/sun-behind-small-cloud_1f324-fe0f.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="">
+<div class="weather">
+    <div class="location"></div>
+    <div class="temp"></div>
+    <div class="description"></div>
+</div>
+
+<form id="changeCityForm">
+    <div id="cityField">
+        <label id="city">Change city</label>
+        <input type="text" for="city" id="changeCityValue">
+    </div>
+    <input type="submit" value="Save Changes" class="button-29">
+</form>
+<script src="classes/LS.js"></script>
+<script src="classes/weather.js"></script>
+<script src="classes/UI.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
